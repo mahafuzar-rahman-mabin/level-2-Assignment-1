@@ -19,9 +19,9 @@ I also learned about Type Narrowing and the difference between Type and Interfac
 
 ## Assignment Files
 
-- `solutions.ts` – All my TypeScript solutions.
-- `type-narrowing.md` – My notes about Type Narrowing.
-- `type-vs-interface.md` – My notes about Type and Interface.
+- (solutions.ts) – All my TypeScript solutions.
+- (type-narrowing.md) – My notes about Type Narrowing.
+- (type-vs-interface.md) – My notes about Type and Interface.
 
 ## My Experience
 
