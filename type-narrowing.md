@@ -1,4 +1,4 @@
-- What is Type Narrowing in TypeScript?
+## What is Type Narrowing in TypeScript?
 
 When I started learing TypeScript, I learned about type narrowing . At frist, it was a little confusing for me . but after practicing, I understood it. Tyyype narrowing means checking a values type and making it more specific.It helps us write safer code and avoid errors.
 
@@ -43,6 +43,6 @@ if ("name" in user) {
 console.log(user.name);
 }
 
-- My Understanding:
+My Understanding:
 
 I learned that Type Narrowing makes TypeScript code safer and easier to understand. Using typeof, instanceof, and in helps us check different types of values. With more practice, I hope to use them confidently.

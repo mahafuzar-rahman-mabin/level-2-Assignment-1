@@ -1,8 +1,8 @@
-- Type vs Interface in TypeScript: What's the Difference?
+## Type vs Interface in TypeScript: What's the Difference?
 
 When i started learing TypeScript, i niticed that type and interface looked very similar.both can describ the stucture of and object.At frist i was confused about when to use each one. after preacting with same examples, i understood that thay have a few important differences.
 
--understing type and interface:
+understing type and interface:
 
 an interface is maily used to define the structure of an object.
 
@@ -37,6 +37,6 @@ Anather important difference is declaration mergging.Interfaces whith the same n
 
 I prefer using interface wwwhen defining objext structures or exteding existin inteefaces. for union tyypes , tuples, and other complex type combinations, I find type more useful.however,both are good chices for describing objects.
 
-- My Understanding:
+My Understanding:
 
 Learning the differences between type and interface helps me write cleaner and more organized TypeScript code. I believe the best choice depends on the situation and the requirements of the project.
