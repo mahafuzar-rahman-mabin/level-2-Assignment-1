@@ -12,36 +12,42 @@ We can use typeof to check basic types like string and number.
 
 let value: string | number = "Hello";
 
+```ts
 if (typeof value === "string") {
-console.log(value);
+  console.log(value);
 } else {
-console.log(value);
+  console.log(value);
 }
+```
 
 2. Using instanceof:
 
 We can use instanceof to check if an object belongs to a specific class.
 
+```ts
 class Person {}
 
 const user = new Person();
 
 if (user instanceof Person) {
-console.log("This is a Person");
+  console.log("This is a Person");
 }
+```
 
 3. Using the in Operator:
 
 We can use in to check if an object has a specific property.
 
+```ts
 const user = {
-name: "Mahafuzar",
-age: 22,
+  name: "Mahafuzar",
+  age: 22,
 };
 
 if ("name" in user) {
-console.log(user.name);
+  console.log(user.name);
 }
+```
 
 My Understanding:
 

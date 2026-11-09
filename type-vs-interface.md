@@ -8,28 +8,34 @@ an interface is maily used to define the structure of an object.
 
 For example :
 
-interface Iuser{
-name:string;
-age : number;
+```ts
+interface Iuser {
+  name: string;
+  age: number;
 }
+```
 
 we can also user extends to reuse properties for another interface.
 
 For example:
 
-interface Istudent extends Iuser{
-studentId : number;
+```ts
+interface Istudent extends Iuser {
+  studentId: number;
 }
+```
 
 on the other hand type is more flexible.It can define objects, unions and tuples.
 
 For example unions:
 
+```ts
 type Status = "active" | "inactive";
 type IUser = {
-name : string;
-age : number;
-}
+  name: string;
+  age: number;
+};
+```
 
 Anather important difference is declaration mergging.Interfaces whith the same name can be combined automatically, but type aliases cancont be declared agin with the same name.
 
